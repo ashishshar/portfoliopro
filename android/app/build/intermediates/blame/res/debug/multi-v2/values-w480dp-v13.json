@@ -1,32 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Applications/XAMPP/xamppfiles/htdocs/portfoliopro/android/app/build/intermediates/res/merged/debug/values-w480dp-v13/values-w480dp-v13.xml",
-            "map": [
-                {
-                    "source": "/Users/ashish/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/7921a9b34682db04c07cc37305eca285/res/values-w480dp/values-w480dp.xml",
-                    "from": {
-                        "startLines": "4,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "282,572",
-                        "endColumns": "61,71",
-                        "endOffsets": "339,639"
-                    },
-                    "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,117",
-                        "endColumns": "61,71",
-                        "endOffsets": "112,184"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Applications/XAMPP/xamppfiles/htdocs/portfoliopro/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-v13/values-w480dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/ashish/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/7921a9b34682db04c07cc37305eca285/res/values-w480dp/values-w480dp.xml",
+                    "source": "/Users/ashish/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f93ff68c8baaf14a8508317d5db2a18e/res/values-w480dp/values-w480dp.xml",
                     "from": {
                         "startLines": "4,7",
                         "startColumns": "4,4",

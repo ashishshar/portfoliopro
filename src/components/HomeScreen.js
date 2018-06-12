@@ -111,11 +111,11 @@ export default class HomeScreen extends React.Component {
                     </Card>
                     <Card style={styles.cardStyle}>
                         <CardItem style={styles.socialIcon}>
-                            <Text style={{ fontSize: 22 }}>Connect - {" "}</Text> 
-                            <Icon name="envelope" size={32} onPress={() => Linking.openURL(this.state.email)} >{" "}
-                            </Icon>{" "}
-                            <Icon name="facebook" size={32} onPress={() => Linking.openURL(this.state.facebooklink)} >{" "}</Icon>{" "}
-                            <Icon name="instagram" size={32} onPress={() => Linking.openURL(this.state.insta)} >{" "}</Icon>
+                            <Text style={{ fontSize: 22 }}>Connect - </Text> 
+                            <Icon name="envelope" size={32} onPress={() => Linking.openURL(this.state.email)} >
+                            </Icon>
+                            <Icon name="facebook" size={32} onPress={() => Linking.openURL(this.state.facebooklink)} ></Icon>
+                            <Icon name="instagram" size={32} onPress={() => Linking.openURL(this.state.insta)} ></Icon>
                             <Icon name="linkedin" size={32} onPress={() => Linking.openURL(this.state.linkedin)}  />
                         </CardItem>
                     </Card>
