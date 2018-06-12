@@ -1,0 +1,4 @@
+#Tue Jun 12 14:58:20 IST 2018
+base.0=/Applications/XAMPP/xamppfiles/htdocs/portfoliopro/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
