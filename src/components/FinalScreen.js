@@ -65,7 +65,7 @@ export default class FinalScreen extends React.Component {
         const insta = this.state.instagram; 
         const linkedin = this.state.linkedin;
         const email = this.state.email;
-        console.log(this.state);
+        //console.log(this.state);
         fetch(apiUrl + 'saveData', {
             method: 'POST',
             headers: {
@@ -86,15 +86,16 @@ export default class FinalScreen extends React.Component {
         })
         .then((response) => response.json())
         .then((responseJson) => {
+            console.log(responseJson);
             if (responseJson) {
-                return this.props.navigation.navigate('Home', { phoneNumber: phoneNumber});
+                return this.props.navigation.navigate('Home');
             }
             else {
                 this.setState({ loading: false });
             }
         })
         .catch((error) => {
-             console.error(error);
+             console.error(error);  
         });
     }
 

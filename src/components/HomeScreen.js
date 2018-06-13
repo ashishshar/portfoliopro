@@ -11,7 +11,8 @@ import {
 import { Card, CardItem, Body, Button, Text, Left, Right} from 'native-base';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Loader from './Loader';
-const apiUrl = "https://portfoliopro-68771.firebaseapp.com/";//"http://localhost:5000/"; 
+import firebase from 'firebase';
+const apiUrl = "https://portfoliopro-68771.firebaseapp.com/";
 const data = '';
 export default class HomeScreen extends React.Component {
     static navigationOptions = {
@@ -30,7 +31,7 @@ export default class HomeScreen extends React.Component {
         email:''
     };
     componentWillMount() {
-        const phoneNumber = '8218706886';//this.props.navigation.state.params.phoneNumber;
+        const phoneNumber = firebase.auth().currentUser.uid;//this.props.navigation.state.params.phoneNumber;
         const logincheck = fetch(apiUrl + 'getProfile', {
             method: 'POST',
             headers: {
